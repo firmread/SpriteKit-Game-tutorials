@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CDC0B51D179B3700BB8BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CDC0B41D179B3700BB8BD9 /* AppDelegate.swift */; };
+		47CDC0B71D179B3700BB8BD9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CDC0B61D179B3700BB8BD9 /* GameScene.swift */; };
+		47CDC0B91D179B3700BB8BD9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 47CDC0B81D179B3700BB8BD9 /* GameScene.sks */; };
+		47CDC0BB1D179B3700BB8BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CDC0BA1D179B3700BB8BD9 /* Assets.xcassets */; };
+		47CDC0BE1D179B3700BB8BD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47CDC0BC1D179B3700BB8BD9 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47CDC0B11D179B3700BB8BD9 /* AirPlanesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlanesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CDC0B41D179B3700BB8BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47CDC0B61D179B3700BB8BD9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		47CDC0B81D179B3700BB8BD9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		47CDC0BA1D179B3700BB8BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47CDC0BD1D179B3700BB8BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		47CDC0BF1D179B3700BB8BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47CDC0AE1D179B3700BB8BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CDC0A81D179B3700BB8BD9 = {
+			isa = PBXGroup;
+			children = (
+				47CDC0B31D179B3700BB8BD9 /* AirPlanesGame */,
+				47CDC0B21D179B3700BB8BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47CDC0B21D179B3700BB8BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47CDC0B11D179B3700BB8BD9 /* AirPlanesGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47CDC0B31D179B3700BB8BD9 /* AirPlanesGame */ = {
+			isa = PBXGroup;
+			children = (
+				47CDC0B41D179B3700BB8BD9 /* AppDelegate.swift */,
+				47CDC0B61D179B3700BB8BD9 /* GameScene.swift */,
+				47CDC0B81D179B3700BB8BD9 /* GameScene.sks */,
+				47CDC0BA1D179B3700BB8BD9 /* Assets.xcassets */,
+				47CDC0BC1D179B3700BB8BD9 /* MainMenu.xib */,
+				47CDC0BF1D179B3700BB8BD9 /* Info.plist */,
+			);
+			path = AirPlanesGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47CDC0B01D179B3700BB8BD9 /* AirPlanesGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CDC0C21D179B3700BB8BD9 /* Build configuration list for PBXNativeTarget "AirPlanesGame" */;
+			buildPhases = (
+				47CDC0AD1D179B3700BB8BD9 /* Sources */,
+				47CDC0AE1D179B3700BB8BD9 /* Frameworks */,
+				47CDC0AF1D179B3700BB8BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPlanesGame;
+			productName = AirPlanesGame;
+			productReference = 47CDC0B11D179B3700BB8BD9 /* AirPlanesGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47CDC0A91D179B3700BB8BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Reed Tothong";
+				TargetAttributes = {
+					47CDC0B01D179B3700BB8BD9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 47CDC0AC1D179B3700BB8BD9 /* Build configuration list for PBXProject "AirPlanesGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47CDC0A81D179B3700BB8BD9;
+			productRefGroup = 47CDC0B21D179B3700BB8BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47CDC0B01D179B3700BB8BD9 /* AirPlanesGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47CDC0AF1D179B3700BB8BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CDC0BB1D179B3700BB8BD9 /* Assets.xcassets in Resources */,
+				47CDC0B91D179B3700BB8BD9 /* GameScene.sks in Resources */,
+				47CDC0BE1D179B3700BB8BD9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CDC0AD1D179B3700BB8BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CDC0B71D179B3700BB8BD9 /* GameScene.swift in Sources */,
+				47CDC0B51D179B3700BB8BD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47CDC0BC1D179B3700BB8BD9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CDC0BD1D179B3700BB8BD9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47CDC0C01D179B3700BB8BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47CDC0C11D179B3700BB8BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47CDC0C31D179B3700BB8BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AirPlanesGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.firmread.AirPlanesGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47CDC0C41D179B3700BB8BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AirPlanesGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.firmread.AirPlanesGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47CDC0AC1D179B3700BB8BD9 /* Build configuration list for PBXProject "AirPlanesGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CDC0C01D179B3700BB8BD9 /* Debug */,
+				47CDC0C11D179B3700BB8BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CDC0C21D179B3700BB8BD9 /* Build configuration list for PBXNativeTarget "AirPlanesGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CDC0C31D179B3700BB8BD9 /* Debug */,
+				47CDC0C41D179B3700BB8BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47CDC0A91D179B3700BB8BD9 /* Project object */;
+}
